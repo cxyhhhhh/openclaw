@@ -90,6 +90,10 @@
                     "type": "string",
                     "enum": ["off", "partial"],
                     "default": "partial"
+                  },
+                  "c2cStreamApi": {
+                    "type": "boolean",
+                    "description": "Use QQ C2C official stream_messages API (single-message typing-style updates)."
                   }
                 }
               }
@@ -135,6 +139,10 @@
                 "type": "string",
                 "enum": ["off", "partial"],
                 "default": "partial"
+              },
+              "c2cStreamApi": {
+                "type": "boolean",
+                "description": "Use QQ C2C official stream_messages API (single-message typing-style updates)."
               }
             }
           }
